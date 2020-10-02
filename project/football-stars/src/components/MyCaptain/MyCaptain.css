@@ -1,0 +1,68 @@
+.blue-area-wraper {
+    background: url('/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 90vw;
+    border-bottom-right-radius: 65px;
+}
+
+.blue-area-wraper h1 {
+    text-align: center;
+    margin-left: 99vh;
+    color: #fff;
+    font-size: 36px;
+}
+
+.captain-img-wraper {
+    background-color: #fff;
+    text-align: center;
+}
+
+.captain-img-wraper img {
+    position: relative;
+    top: -70px;
+    width: 350px;
+    height: 500px;
+}
+
+.captain-img-wraper #h1 {
+    color: #419FE6;
+    font-weight: 500;
+    margin-top: -90px;
+}
+
+.captain-img-wraper #h2 {
+    color: #419FE6;
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.captain-img-wraper .new-team-btn {
+    font-size: 15px;
+    margin-bottom: 10px;
+    box-shadow: inset 0px 1px 0px 0px #fbafe3;
+    background: linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+    background-color: #ff5bb0;
+    border-radius: 11px;
+    border: 1px solid #ee1eb5;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 10px 11px;
+    text-decoration: none;
+    text-shadow: 0px 3px 0px #c70067;
+}
+
+.captain-img-wraper .new-team-btn:hover {
+    background: linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+    background-color: #ef027d;
+}
+
+.captain-img-wraper .new-team-btn:active {
+    position: relative;
+    top: 1px;
+}

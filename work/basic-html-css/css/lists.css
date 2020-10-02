@@ -1,0 +1,26 @@
+li {
+  color: aqua;
+  background-color: blanchedalmond;
+  font-family: sans-serif;
+  list-style: none;
+  position: relative;
+  margin-left: 5px;
+  padding: 5px;
+  border-style: dashed;
+}
+
+li:nth-child(4n-1) {
+  background-color: violet;   
+}
+
+header{
+  position: relative;
+  border-radius: 10px;
+  margin-left: 40px;
+  padding: 5px;
+}
+span {
+	padding: 10px;
+  border-radius: 10px;
+  margin-left: 35px;
+}

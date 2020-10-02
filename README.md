@@ -1,2 +1,1 @@
-# web-development
-INFO 6205 Coursework
+Placeholder repo for portfolio website

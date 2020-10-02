@@ -1,0 +1,112 @@
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: repeat-y;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+
+h1,
+h2 {
+    margin: 50px;
+}
+
+span {
+    padding: 5px 10px 5px 45px;
+    width: 610px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+span:hover {
+    padding: 5px 10px 5px 45px;
+    border: solid;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: #7C4DFF;
+    transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+button {
+    color: #4f4c4c;
+    justify-content: center;
+    padding: 15px 40px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin: 15px;
+    border: none;
+}
+
+button:active {
+    background-color: #1dda9b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.counter {
+    color: white;
+    background-color: #7C4DFF;
+    font-weight: bold;
+}
+
+.counter:hover {
+    color: white;
+    padding: 15px 50px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #7C4DFF;
+    cursor: pointer;
+}
+
+.play-again {
+    color: #4f4c4c;
+    background-color: #f4f4f4;
+    padding: 15px 50px;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.play-again:hover {
+    color: white;
+    padding: 15px 50px;
+    font-size: 44px;
+    margin-top: 70px;
+    margin-left: 20px;
+    background-color: #7C4DFF;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #7C4DFF;
+    font-weight: bold;
+}
+
+button:focus {
+    color: black;
+    background-color: #1dda9b;
+    font-weight: bold;
+}
